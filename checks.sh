@@ -2,6 +2,7 @@
 uname -a
 #Check size of the directory
 du -sh /home
+du -cksh *
 #Check open ports
 netstat -tulpn
 #Which process have /some/file open
