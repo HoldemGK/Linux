@@ -8,7 +8,7 @@ import sys
 #argv[0] is your current python file and argv[1] is first argument where you want to delete files from
 path = sys.argv[1]
 
-logging_path = os.getenv('PWD') #'/tmp'
+logging_path = '${PWD}' #'/tmp'
 extension = ".zip"
 days = -21
 
