@@ -10,7 +10,7 @@ path = sys.argv[1]
 
 logging_path = '/tmp'
 extension = ".zip"
-days = -2
+days = -1
 
 if not os.path.isdir(logging_path):
     os.mkdir(logging_path)
