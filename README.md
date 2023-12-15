@@ -10,3 +10,9 @@
 
 `ssh-agent bash
 ssh-add .ssh/id_rsa`
+
+##User Comands
+
+`egrep '^PasswordAuthentication|^#Include' /etc/ssh/sshd_config
+sudo deluser tracy sudo
+sudo -l -U tracy`
