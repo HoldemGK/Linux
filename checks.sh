@@ -18,3 +18,8 @@ nginx -v
 gdb --version
 nginx -T
 strace nginx -T
+# switch to root check jobs
+sudo su
+crontab -l
+systemctl list-unit-files | grep enabled
+systemctl daemon-reload
